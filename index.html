@@ -1,7 +1,27 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello john 1</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<head>
+    <meta charset="UTF-8">
+    <title>first page</title>
+    <script type="text/javascript"></script>
+  
+</head>
+<body> 
+    <h1>Hello john 1</h1>
+    <p>I'm hosted with GitHub Pages.</p>
+    <div id="app">
+        name=({name})
+
+    </div>
+    <script src="https://unpkg.com/vue">
+        var m=new Vue({
+            el:'#app',
+            data:{
+                name:'vue application'
+            }
+
+        })
+    </script>
+
 </body>
 </html>
